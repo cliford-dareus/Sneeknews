@@ -13,8 +13,9 @@ export default function showCase(story, index){
     console.log(story)
 
     return `
-    <div class="">
-        <img src="https://source.unsplash.com/${images[index].image}" alt="">
-        <p>${story.title}</p>
-    </div>`
+        <div class="showcase_image">
+            <img src="https://source.unsplash.com/${images[index].image}" alt="">
+        </div>
+        <h1>${story.title}</h1>
+    `
 };
