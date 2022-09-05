@@ -1,4 +1,4 @@
-import Navigo from 'navigo';
+const { default: Navigo}  = require('navigo');
 import Stories from '../Pages/Stories';
 import Article from '../Pages/Article';
 
