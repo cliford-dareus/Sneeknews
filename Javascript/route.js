@@ -3,7 +3,7 @@ import Stories from '../Pages/Stories';
 import Article from '../Pages/Article';
 
 
-const router = new Navigo(null, true, '#');
+const router = new Navigo(null, true, '/');
 console.log(router);
 
 export default class RouterHandler{
