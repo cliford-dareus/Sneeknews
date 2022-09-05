@@ -1,4 +1,4 @@
-import Navigo from 'navigo';
+import Navigo  from 'navigo';
 import Stories from '../Pages/Stories';
 import Article from '../Pages/Article';
 
