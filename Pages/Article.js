@@ -6,6 +6,7 @@ import Comments from "../Components/CommentsSection";
 export default async function Article(){
     const article = await getStories();
     let hasComment = article.comments.length > 0;
+    
     console.log(article.comments)
 
     view.innerHTML = `
