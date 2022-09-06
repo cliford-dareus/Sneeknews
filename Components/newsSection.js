@@ -19,7 +19,7 @@ export default function newsSection(story){
                             </span>
                             ${story.time_ago} 
                         </p>|
-                        <a class="flex center comment_link" href="/article?id=${story.id}"> 
+                        <a class="flex center comment_link" href="#/article?id=${story.id}"> 
                             <span class="flex center">
                                 <i class="ri-chat-1-line"></i>
                             </span>

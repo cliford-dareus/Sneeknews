@@ -8,6 +8,7 @@ let page;
 
 
 export default async function Stories(path){
+    console.log(path)
     stories = await getStories(path);
     const hasStories = stories.length > 0;
     let filterStories = stories;

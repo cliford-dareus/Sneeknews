@@ -6,7 +6,7 @@ import Comments from "../Components/CommentsSection";
 export default async function Article(){
     const article = await getStories();
     let hasComment = article.comments.length > 0;
-    
+
     console.log(article.comments)
 
     view.innerHTML = `
@@ -25,7 +25,9 @@ export default async function Article(){
 
 
 async function getStories(){
-    const articleId = window.location.search.split('=')[1];
+    const articleId = window.location.hash.split('?id=')[1];
+
+    console.log(articleId)
 
     const response = await fetch(`https://node-hnapi.herokuapp.com/item/${articleId}`);
     const article = await response.json();

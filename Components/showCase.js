@@ -22,7 +22,7 @@ export default function showCase(story, iii, page){
                 <p>${story.time_ago}</p>
             </div>
 
-            <a class="flex center comment_link" href="/article?id=${story.id}"> 
+            <a class="flex center comment_link" href="#/article?id=${story.id}"> 
                 <span class="flex center">
                     <i class="ri-chat-1-line"></i>
                 </span>
